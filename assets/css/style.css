@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+  font-size: 1.1em;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+h3 {
+  font-size: 1.3rem;
+  padding: 2rem;
+}
+
+.bg-image {
+  position: absolute;
+  background-image: url("./../image/heder.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 490px;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+.content-in-header {
+  margin: 0 auto;
+  width: 45%;
+  padding: 7rem;
+}
+
+.p-content-in-header {
+  line-height: 1.9rem;
+}
+
+.link-in-header {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 1.3em 2em;
+  border: 1px solid #666;
+  margin: 1em 0;
+}
+
+.section-a {
+  display: block;
+  background-color: #eaeaea;
+  color: #333;
+  padding: 2.1rem 0rem 3rem 0rem;
+}
+
+.p-in-section-a {
+  column-count: 2;
+  line-height: 1.7rem;
+  margin: 0rem auto;
+  width: 45%;
+  margin-top: 2rem;
+}
+
+.child-1,
+.child-2,
+.child-3 {
+  background-color: #fff;
+  color: #333;
+  width: 15%;
+  margin: 2rem 0.5rem;
+  display: inline-block;
+}
+
+.child-1 p,
+.child-2 p,
+.child-3 p {
+  line-height: 1.7rem;
+  word-spacing: 0.2rem;
+  padding: 0rem 1.17rem 2rem;
+}
+
+.section-c {
+  background-color: #fff;
+  color: #333;
+  padding: 2rem;
+  padding-bottom: 1rem;
+}
+
+.section-c h2 {
+  margin: 2rem;
+}
+
+.section-c p {
+  margin: 3rem auto;
+  width: 50%;
+  line-height: 1.9rem;
+}
+
+.section-d {
+  background-color: #fff;
+  color: #333;
+}
+
+.section-d-child-1,
+.section-d-child-2 {
+  color: #333;
+  width: 50%;
+  float: left;
+  display: inline-block;
+}
+
+.section-d-child-1 {
+  background-color: #2690d4;
+  color: #fff;
+}
+
+.section-d-child-2 {
+  background-color: #333;
+  color: #fff;
+}
+
+.section-d-child-1 h2,
+.section-d-child-2 h2 {
+  margin: 3rem;
+}
+
+.section-d-child-1 p,
+.section-d-child-2 p {
+  margin: 3rem;
+}
+
+.footer {
+  background-color: #000;
+  width: 100%;
+  display: inline-block;
+}
+
+.footer-child-1,
+.footer-child-2 {
+  width: 50%;
+  float: left;
+  display: inline-block;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.link-in-footer {
+  text-decoration: none;
+  color: #2690d4;
+}
